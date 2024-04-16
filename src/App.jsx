@@ -11,7 +11,7 @@ function App() {
  const [tenzies, setTenzies] = React.useState(false)
  const [rollTotal, setRollTotal] = React.useState(0)
  const [rollRecord, setRollRecord] = React.useState(
-       parseInt(localStorage.getItem("rollRecord")) || Infinity
+       parseInt(localStorage.getItem("rollRecord")) || "-"
    )
 
 
